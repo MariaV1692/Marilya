@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+        android:layout_height="@dimen/nav_header_height"
+        android:background="@drawable/side_nav_bar"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark"
+        android:gravity="bottom" android:id="@+id/linearLayout">
+
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/nav_header_vertical_spacing"
+            app:srcCompat="@mipmap/ic_my_robot"
+            android:contentDescription="@string/nav_header_desc"
+            android:id="@+id/imageView"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toTopOf="parent" android:layout_marginStart="8dp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/nav_header_vertical_spacing"
+            android:text="7aRd1Gr@d3"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:id="@+id/textView2"
+            app:layout_constraintStart_toEndOf="@+id/imageView"
+            android:layout_marginStart="24dp" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toTopOf="@+id/imageView"
+            android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ilya.sheidin@gmail.com"
+            android:id="@+id/textView"
+            app:layout_constraintStart_toEndOf="@+id/imageView" android:layout_marginStart="24dp"
+            android:layout_marginTop="8dp" app:layout_constraintTop_toBottomOf="@+id/textView2"/>
+
+</android.support.constraint.ConstraintLayout>
