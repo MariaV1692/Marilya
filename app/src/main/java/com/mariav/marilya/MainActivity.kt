@@ -1,5 +1,6 @@
 package com.mariav.marilya
 
+import android.content.Intent
 import android.os.Bundle
 import android.support.design.widget.Snackbar
 import android.support.design.widget.NavigationView
@@ -35,7 +36,8 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun onBtnLoginClicked(view: View) {
-        println("Good!")
+        val loginScreen = Intent(this,LoginActivity::class.java)
+        startActivity(loginScreen)
     }
 
     fun onBtnAddChanelClicked(view: View) {
