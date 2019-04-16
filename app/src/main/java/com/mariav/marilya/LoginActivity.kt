@@ -23,6 +23,7 @@ import android.widget.TextView
 
 import java.util.ArrayList
 import android.Manifest.permission.READ_CONTACTS
+import android.content.Intent
 
 import kotlinx.android.synthetic.main.activity_login.*
 
@@ -40,5 +41,10 @@ class LoginActivity : AppCompatActivity() {
 
     fun onBtnSignInClicked(view: View) {
 
+    }
+
+    fun onBtnSignUpClicked(view: View) {
+        val signup_screen = Intent(this,CreateUserActivity::class.java)
+        startActivity(signup_screen)
     }
 }

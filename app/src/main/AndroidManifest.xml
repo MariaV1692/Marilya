@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           package="com.mariav.marilya">
-
     <!-- To auto-complete the email text field in the login form with the user's emails -->
     <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
     <uses-permission android:name="android.permission.READ_PROFILE"/>
@@ -14,6 +13,8 @@
             android:roundIcon="@mipmap/ic_my_robot_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
+        <activity android:name=".CreateUserActivity">
+        </activity>
         <activity
                 android:name=".LoginActivity"
                 android:label="@string/title_activity_login">
@@ -28,7 +29,10 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <meta-data android:name="preloaded_fonts" android:resource="@array/preloaded_fonts"/>
+
+        <meta-data
+                android:name="preloaded_fonts"
+                android:resource="@array/preloaded_fonts"/>
     </application>
 
 </manifest>

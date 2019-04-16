@@ -71,9 +71,20 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="16dp"
                     android:text="SIGN IN"
-                    android:fontFamily="@font/pompiere" android:textStyle="bold"
-                    android:background="@color/colorPrimary" android:textColor="@color/colorAccent"
+                    android:fontFamily="@font/pompiere"
+                    android:background="@color/colorPrimary" android:textColor="#FFFFFF"
                     android:textSize="24sp" android:onClick="onBtnSignInClicked"/>
+            <TextView
+                    android:text="Don't have an account?"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/textView5" android:textAlignment="center"
+                    android:layout_marginTop="25dp" android:fontFamily="@font/pompiere"/>
+            <Button
+                    android:text="Sign Up"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/btnSignUp" android:layout_marginTop="10dp"
+                    android:background="@color/colorPrimary" android:fontFamily="@font/pompiere"
+                    android:textColor="#FFFFFF" android:textStyle="bold" android:onClick="onBtnSignUpClicked"/>
 
         </LinearLayout>
     </ScrollView>
