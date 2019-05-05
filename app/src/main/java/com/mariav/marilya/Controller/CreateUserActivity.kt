@@ -1,7 +1,8 @@
-package com.mariav.marilya
+package com.mariav.marilya.Controller
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import com.mariav.marilya.R
 
 class CreateUserActivity : AppCompatActivity() {
 
