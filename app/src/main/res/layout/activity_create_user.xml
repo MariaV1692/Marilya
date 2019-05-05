@@ -70,5 +70,5 @@
             android:background="@color/colorPrimary" android:textColor="#FFFFFF" android:layout_marginStart="32dp"
             app:layout_constraintStart_toStartOf="parent" android:layout_marginEnd="32dp"
             app:layout_constraintEnd_toEndOf="parent" android:fontFamily="@font/pompiere" android:textStyle="bold"
-            android:textSize="24sp"/>
+            android:textSize="24sp" android:onClick="onCreateUserClicked"/>
 </android.support.constraint.ConstraintLayout>
